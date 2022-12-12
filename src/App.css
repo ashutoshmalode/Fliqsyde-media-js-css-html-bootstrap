@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.container-main {
+  justify-content: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.post-card {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(34, 34, 34);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.post-card-owner-main-div {
+  height: 80px;
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.post-card-img-div {
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.post-card-owner-pict {
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 50px;
+  background-size: 30px;
+  border: 2px solid yellow;
+  justify-content: center;
+  align-items: center;
+}
+.post-card-owner-name-div {
+  height: 50px;
+  width: 250px;
+  background-size: 100%;
+  justify-content: center;
+}
+.pet-info-main-div {
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.pet-img-div {
+  height: 150px;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+  background-size: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pet-img {
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
 }
